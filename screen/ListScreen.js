@@ -7,22 +7,22 @@ const students = [
     {name: "Geni" , surname:" Gashi" , age: '14'},
 ];
 
-const ListScreen = () => {
-    return(
-        <View>
-            <Text>List Screen:</Text>
-            <FlatList
-            horizontal={true}
-            data={students}
-           renderItem={({item)} => {
-            return <Text>{item.name}{item.surname}{item.age}</Text>
-           }
-        }
+// const ListScreen = () => {
+//     return(
+//         <View>
+//             <Text>List Screen:</Text>
+//             <FlatList
+//             horizontal={true}
+//             data={students}
+//            renderItem={({item)} => {
+//             return <Text>{item.name}{item.surname}{item.age}</Text>
+//            }
+//         }
 
-        />
-        </View>
-    );
-}
+//         />
+//         </View>
+//     );
+// }
 
 const styles = StyleSheet.create({})
 
