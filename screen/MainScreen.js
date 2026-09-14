@@ -1,23 +1,38 @@
-import React from "react";
-import { Text , StyleSheet , Wiew } from "react-native";
+// import React from "react";
+// import { Text , StyleSheet , Wiew } from "react-native";
 
-const MainScreen =()=> {
-    return(<Wiew style={styles.test}>
-        <Text style={styles.textStyle}>This is a main screen</Text>
-    </Wiew>);
+// const MainScreen = () => {
+
+// const message = "Hello World";
+//     return (
+//         <View>
+//         <Text>Hello World</Text>
+//         <Text>{message}</Text>
+//         </View>
+//     )
+
+
+
+// }
+
+// export default MainScreen;
+
+import React from "react";
+import {Text , Stylesheet , View} from 'react-native';
+
+
+const MainScreen = ()=> {
+
+
+const message = "Hello from our class!";
+    return(
+        <View>
+        <Text>Hello World</Text>
+        <Text>{message}</Text>
+    </View>
+    );
 }
 
-const styles = StyleSheet.create({
-    test: {
-        flex: 1;
-        backgroundColor: "lightblue",
-        alignItems: "center",
-        justifyContent: "center",
-    },
-    textStyle:{
-        fontSize:30
-    }
 
-});
 
 export default MainScreen;
